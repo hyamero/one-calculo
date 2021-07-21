@@ -1,0 +1,93 @@
+.Calculator {
+  background: #f7f7f7;
+  // background: linear-gradient(to left bottom, #f7f7f7 50%, #fff 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  .calc-parent {
+    background: #565656;
+    width: 750px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3px;
+
+    .calcResult {
+      background: transparent;
+      height: 65px;
+      
+      .result {
+        padding: 0 15px;
+        margin: auto;
+        overflow: hidden;
+        max-width: 90%;
+      }
+    }
+
+    .calc-buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(5, min(50px));
+      gap: 2px;
+      padding-top: 10px;
+
+      ::selection {
+        color: none;
+        background: none;
+    }
+
+      .zero {
+        grid-column: 1/3;
+        grid-row: 5;
+      }
+
+      .equal-sign {
+        grid-column: 4;
+        grid-row: 4/6;
+      }
+
+      .null {
+        display: none;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        background: $btn-1;
+        color: $btn-1c;
+        cursor: crosshair;
+        font-size: 1rem;
+        font-weight: 500;
+
+        &:hover {
+          background: lighten($btn-1, 40);
+        }
+      }
+
+      .btn-fn {
+        background: $btn-2;
+        color: $btn-2c;
+
+        &:hover {
+          background: lighten($btn-2, 30);
+        }
+      }
+    }
+  }
+}
+
+.calcResult {
+  position: relative;
+  height: 100px;
+  color: #fff;
+
+  .result {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
