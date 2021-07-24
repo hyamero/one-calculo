@@ -2,9 +2,9 @@ import CalcResult from "./CalcResult";
 
 import { CgBackspace } from "react-icons/cg";
 
-const Calculator = ({ setCalcResult, calcResult, input }) => {
+const Calculator = ({ calcResult, input }) => {
   return (
-    <div className="Calculator main-page">
+    <div className="Calculator main-page" id='calculo' >
       <div className="calc-parent container">
         <CalcResult calcResult={calcResult} />
         <div className="calc-buttons">

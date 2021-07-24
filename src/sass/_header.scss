@@ -19,12 +19,25 @@
       text-transform: uppercase;
     }
 
-    p {
+    a {
       width: 54%;
       margin: auto;
       font-weight: 500;
       color: #212121;
+      text-decoration: none;
+      font-size: 1.5rem;
+      // text-transform: uppercase;
         
+      p {
+        display: inline-block;
+      transition: linear .2s;
+
+        &:hover {
+          color: lighten(#212121, 15);
+          font-size: 1.53rem;
+        }
+      }
+
     }
   }
 

@@ -3,7 +3,7 @@ const Header = () => {
         <div className='Header main-page' >
             <div className="header-content">
             <h1>One Calculo</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id harum magni, laudantium ad consequatur Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a href="#calculo">👉 <p>open calculo</p> 👈</a>
             </div>
         </div>
     )

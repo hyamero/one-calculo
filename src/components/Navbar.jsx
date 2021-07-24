@@ -6,11 +6,6 @@ const Navbar = () => {
         <div className='Navbar' >
             <div className="container">
                 <AiOutlineCalculator className='icon-calculator' />
-            <ul>
-                <li>WELCOME</li>
-                <li>CALCULO</li>
-                <li>CONTACT</li>
-            </ul>
                 <CgMathPercent className='icon-percent' />
             </div>
         </div>

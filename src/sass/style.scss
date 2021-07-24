@@ -12,6 +12,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::selection {
     background: #212121;
     color: #F7F7F7;
