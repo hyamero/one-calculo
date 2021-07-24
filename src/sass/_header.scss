@@ -27,17 +27,16 @@
       text-decoration: none;
       font-size: 1.5rem;
       // text-transform: uppercase;
-        
+
       p {
         display: inline-block;
-      transition: linear .2s;
+        transition: linear 0.2s;
 
         &:hover {
           color: lighten(#212121, 15);
           font-size: 1.53rem;
         }
       }
-
     }
   }
 
