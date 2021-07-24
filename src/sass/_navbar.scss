@@ -1,32 +1,18 @@
 .Navbar {
-    background: #fff;
-    
-    .container {
-        color: $black-1;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  background: #fff;
 
-    .icon-calculator, .icon-percent {
-        padding-top: 50px;
-        font-size: 2em;
-        display: flex;
-        align-items: center;
-    }
+  .container {
+    color: $black-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    // ul {
-    //     display: flex;
-    //     list-style: none;
-    //     justify-content: center;
-    //     padding-top: 50px;
-        
-    //     li {
-    //         margin: 0 20px;
-    //         font-size: 13px;
-    //         font-weight: 600;
-    //         letter-spacing: 2px;
-    //         cursor: pointer;
-    //     }
-    // }
+  .icon-calculator,
+  .icon-percent {
+    padding-top: 50px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+  }
 }
